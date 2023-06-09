@@ -31,7 +31,7 @@ list_of_files = [
 ]
 
 for file_path in list_of_files:
-    file_path  = os.path.normpath(file_path)
+    file_path  = os.path.normpath(file_path)  #u can also use Path(file_path) to get the path based on the OS ..it replaces the slash
     file_dir,file_name = os.path.split(file_path)
 
     if file_dir != "":

@@ -1,0 +1,25 @@
+1. create a repo in git and clone it to your local
+2. create template.py which contains your folder structure and created the folder structure specified
+3. git commit
+4. create a virtual environment in the same path as your project
+
+--some imp points
+* ConfigBox
+* ensure_annotations
+* when ever you are mentioning the data types for the parameters of a function -- it is a best practise to use @ensure_annotations decorator so when you give any other data type as an argument to the function --it will give an alert/error
+    def func(a,b):   #here a,b are called parameters/formal parametrs
+	return a+b
+   func(1,2)   # here 1,2 are called arguments/actual argunents
+
+
+--https://huggingface.co/google/pegasus-cnn_dailymail
+-- data set https://huggingface.co/datasets/samsum
+
+https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+https://theaisummer.com/attention/
+https://www.kaggle.com/code/arunmohan003/transformer-from-scratch-using-pytorch
+attention models implementation : https://github.com/tensorflow/nmt
+http://jalammar.github.io/how-gpt3-works-visualizations-animations/
+
+
+The @dataclass decorator is particularly useful for creating simple data-oriented classes that mainly hold data and do not require much custom behavior or methods. It reduces the boilerplate code needed for such classes and enhances code readability and maintainability.
